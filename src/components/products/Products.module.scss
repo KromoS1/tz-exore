@@ -1,0 +1,10 @@
+@import '../../styles/Styles.module';
+
+.container {
+  margin-top: 2%;
+  @include displayFlex(column, center, center);
+
+  .paper {
+    @include stylesPaper();
+  }
+}

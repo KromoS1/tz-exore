@@ -1,0 +1,11 @@
+@import '../../styles/Styles.module';
+
+.container{
+  width: 100%;
+  height: 90vh;
+  @include displayFlex(row,center,flex-start);
+
+  .del{
+    margin-top: 1%;
+  }
+}

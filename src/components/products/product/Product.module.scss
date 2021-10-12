@@ -1,0 +1,27 @@
+@import '../../../styles/Styles.module';
+
+.container{
+  padding: 2%;
+  @include displayFlex(row,space-around,flex-start);
+
+  .imgBox{
+    max-width: 400px;
+    max-height: 450px;
+
+    .img{
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .desc{
+    @include displayFlex(column,'','');
+    max-width: 500px;
+    span{
+      padding-bottom: 10px;
+      font-family: "Times New Roman",sans-serif;
+      font-size: 17px;
+      letter-spacing: 1px;
+    }
+  }
+}

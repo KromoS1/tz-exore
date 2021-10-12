@@ -1,0 +1,6 @@
+@import '../../../../styles/Styles.module';
+
+.form {
+  height: 100%;
+  @include displayFlex(column, space-around, center)
+}

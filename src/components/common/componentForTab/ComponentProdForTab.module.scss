@@ -1,0 +1,14 @@
+@import '../../../styles/Styles.module';
+
+.card{
+  @include styleCards();
+
+  .cardHeader{
+    width: 100%;
+    @include displayFlex(row,space-between,center);
+    .link{
+      color: #1c1c1c !important;
+      text-decoration: none;
+    }
+  }
+}

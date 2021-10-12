@@ -1,0 +1,7 @@
+@import '../../../styles/Styles.module';
+
+.container{
+  width: 50%;
+  @include displayFlex(row,space-around,center);
+  margin-bottom: 2%;
+}
